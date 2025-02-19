@@ -8,7 +8,7 @@ import (
 	"errors"
 
 	"github.com/teserakt-io/golang-ed25519/edwards25519"
-	"github.com/zetrix/zetrix-sdk-go/src/crypto/keypair"
+	"github.com/Zetrix-Chain/zetrix-sdk-go/src/crypto/keypair"
 )
 
 const (

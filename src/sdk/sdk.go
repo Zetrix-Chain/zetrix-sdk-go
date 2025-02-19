@@ -2,13 +2,13 @@
 package sdk
 
 import (
-	"github.com/zetrix/zetrix-sdk-go/src/account"
-	"github.com/zetrix/zetrix-sdk-go/src/blockchain"
-	"github.com/zetrix/zetrix-sdk-go/src/common"
-	"github.com/zetrix/zetrix-sdk-go/src/contract"
-	"github.com/zetrix/zetrix-sdk-go/src/exception"
-	"github.com/zetrix/zetrix-sdk-go/src/model"
-	"github.com/zetrix/zetrix-sdk-go/src/token"
+	"github.com/Zetrix-Chain/zetrix-sdk-go/src/account"
+	"github.com/Zetrix-Chain/zetrix-sdk-go/src/blockchain"
+	"github.com/Zetrix-Chain/zetrix-sdk-go/src/common"
+	"github.com/Zetrix-Chain/zetrix-sdk-go/src/contract"
+	"github.com/Zetrix-Chain/zetrix-sdk-go/src/exception"
+	"github.com/Zetrix-Chain/zetrix-sdk-go/src/model"
+	"github.com/Zetrix-Chain/zetrix-sdk-go/src/token"
 )
 
 type Sdk struct {

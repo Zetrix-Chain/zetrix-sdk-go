@@ -5,8 +5,8 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/zetrix/zetrix-sdk-go/src/model"
-	"github.com/zetrix/zetrix-sdk-go/src/sdk"
+	"github.com/Zetrix-Chain/zetrix-sdk-go/src/model"
+	"github.com/Zetrix-Chain/zetrix-sdk-go/src/sdk"
 )
 
 var testSdk sdk.Sdk

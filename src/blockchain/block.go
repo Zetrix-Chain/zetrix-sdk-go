@@ -6,9 +6,9 @@ import (
 	"encoding/json"
 	"strconv"
 
-	"github.com/zetrix/zetrix-sdk-go/src/common"
-	"github.com/zetrix/zetrix-sdk-go/src/exception"
-	"github.com/zetrix/zetrix-sdk-go/src/model"
+	"github.com/Zetrix-Chain/zetrix-sdk-go/src/common"
+	"github.com/Zetrix-Chain/zetrix-sdk-go/src/exception"
+	"github.com/Zetrix-Chain/zetrix-sdk-go/src/model"
 )
 
 type BlockOperation struct {
