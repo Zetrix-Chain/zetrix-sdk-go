@@ -7,12 +7,12 @@ import (
 	"math"
 	"strconv"
 
-	"github.com/zetrix/zetrix-sdk-go/src/common"
-	"github.com/zetrix/zetrix-sdk-go/src/crypto/keypair"
-	"github.com/zetrix/zetrix-sdk-go/src/crypto/protocol"
-	"github.com/zetrix/zetrix-sdk-go/src/crypto/signature"
-	"github.com/zetrix/zetrix-sdk-go/src/exception"
-	"github.com/zetrix/zetrix-sdk-go/src/model"
+	"github.com/Zetrix-Chain/zetrix-sdk-go/src/common"
+	"github.com/Zetrix-Chain/zetrix-sdk-go/src/crypto/keypair"
+	"github.com/Zetrix-Chain/zetrix-sdk-go/src/crypto/protocol"
+	"github.com/Zetrix-Chain/zetrix-sdk-go/src/crypto/signature"
+	"github.com/Zetrix-Chain/zetrix-sdk-go/src/exception"
+	"github.com/Zetrix-Chain/zetrix-sdk-go/src/model"
 	"github.com/golang/protobuf/proto"
 )
 
