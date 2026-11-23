@@ -94,6 +94,12 @@ func Verify(public string, message []byte, Sign string) bool {
 	if err != nil {
 		return false
 	}
+	// An Ed25519 signature is exactly 64 bytes. Check before indexing sig[63] below:
+	// shorter input would panic, and longer input would be accepted with the extra
+	// bytes ignored.
+	if len(sig) != SignatureSize {
+		return false
+	}
 	PublicKey, errp := keypair.DecodePublicKey(public)
 	if errp != nil {
 		return false
